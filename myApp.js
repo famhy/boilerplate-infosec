@@ -3,9 +3,7 @@ const helmet = require("helmet");
 const app = express();
 
 
-app.use(helmet({
-  xPoweredBy: false,
-}));
+app.use(helmet());
 app.use(helmet.hidePoweredBy())
 
 
