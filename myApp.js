@@ -6,7 +6,7 @@ const app = express();
 app.use(helmet({
   xPoweredBy: false,
 }));
-helmet.hidePoweredBy()
+
 
 
 
