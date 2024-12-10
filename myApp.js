@@ -50,7 +50,7 @@ app.use(helmet());
 
 
 
-
+module.exports = app;
 const api = require('./server.js');
 console.log(api);
 
@@ -70,4 +70,3 @@ let port = process.env.PORT || 5000;
 app.listen(port, () => {
   console.log(`Your app is listening on port ${port}`);
 });
-module.exports = app;
